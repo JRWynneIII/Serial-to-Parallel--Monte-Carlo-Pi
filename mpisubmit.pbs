@@ -1,9 +1,8 @@
 #!/bin/bash
-#PBS -A <PROJID>
+#PBS -A stf007int
 #PBS -N monte_carlo_pi
 #PBS -j oe
 #PBS -l walltime=0:01:00,nodes=4
-#PBS -l gres=widow2%widow3
 
 cd /tmp/work/$USER
 
